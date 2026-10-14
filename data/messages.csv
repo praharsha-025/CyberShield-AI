@@ -1,0 +1,21 @@
+message,label
+"Congratulations! You won a free prize. Click now",spam
+"URGENT! Claim your cash reward immediately",spam
+"Your account is blocked. Verify your password now",spam
+"You have won a lottery. Send your bank details",spam
+"Click this link to claim your free gift",spam
+"You have been selected for a cash prize",spam
+"Send your OTP to receive your reward",spam
+"Your package is delayed. Pay a fee using this link",spam
+"Limited time offer! Claim your bonus now",spam
+"Your account has suspicious activity. Verify immediately",spam
+"Hi, are we meeting at college today?",legitimate
+"Please send me the class notes",legitimate
+"Your assignment deadline is tomorrow",legitimate
+"I will call you after class",legitimate
+"The meeting starts at ten in the morning",legitimate
+"Can you share the project file?",legitimate
+"Your appointment is scheduled for Monday",legitimate
+"Please bring your notebook tomorrow",legitimate
+"Thank you for helping me with the assignment",legitimate
+"I have reached home safely",legitimate
