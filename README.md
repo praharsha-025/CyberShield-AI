@@ -1,25 +1,43 @@
 # CyberShield AI
 
-CyberShield AI is a machine learning project designed to identify potentially suspicious messages and phishing URLs.
+AI-powered suspicious message and phishing URL detection using
+Machine Learning and FastAPI.
 
 ## Features
-- Scam and suspicious message detection
-- Phishing URL risk detection
-- FastAPI prediction API
-- Postman API testing
-- Docker containerization
-- GitHub version control
-- Cloud deployment using Render
 
-## Technologies
+- Detects potentially suspicious messages.
+- Classifies website URLs as potentially phishing or legitimate.
+- Provides REST API endpoints using FastAPI.
+- Supports testing through Postman.
+
+## Technologies Used
+
 - Python
 - Pandas
 - Scikit-learn
+- TF-IDF
+- Logistic Regression
 - FastAPI
-- Postman
+- Pydantic
+- Joblib
 - Git and GitHub
-- Docker and Docker Hub
-- Render
+- Docker (planned)
+- Docker Hub (planned)
+- Render deployment (planned)
 
-## Disclaimer
-Predictions are estimates and may be incorrect. Always verify suspicious messages and URLs independently.
+## Project Structure
+
+```text
+CyberShield-AI/
+├── data/
+│   ├── messages.csv
+│   └── urls.csv
+├── models/
+│   ├── scam_model.joblib
+│   └── phishing_url_model.joblib
+├── main.py
+├── predict.py
+├── train_model.py
+├── train_url_model.py
+├── README.md
+└── .gitignore
